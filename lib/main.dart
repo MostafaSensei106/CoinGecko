@@ -1,5 +1,5 @@
-import 'package:coin_gecko/Core/routing/app_router.dart';
-import 'package:coin_gecko/Core/routing/routes.dart';
+import 'package:coin_gecko/core/routing/app_router.dart';
+import 'package:coin_gecko/core/routing/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
