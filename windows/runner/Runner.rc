@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "coin_gecko" "\0"
+            VALUE "CompanyName", "com.mentor" "\0"
+            VALUE "FileDescription", "coingecko" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "coin_gecko" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "coin_gecko.exe" "\0"
-            VALUE "ProductName", "coin_gecko" "\0"
+            VALUE "InternalName", "coingecko" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.mentor. All rights reserved." "\0"
+            VALUE "OriginalFilename", "coingecko.exe" "\0"
+            VALUE "ProductName", "coingecko" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

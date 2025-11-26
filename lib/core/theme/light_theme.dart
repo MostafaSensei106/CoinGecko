@@ -19,8 +19,6 @@ final ThemeData lightTheme = ThemeData(
   colorScheme: const ColorScheme.light(
     primary: AppColors.primary,
     secondary: AppColors.secondary,
-    surface: AppColors.surface,
-    onPrimary: AppColors.onPrimary,
     onSurface: AppColors.onSurface,
   ),
   appBarTheme: const AppBarTheme(
@@ -58,4 +56,6 @@ final ThemeData lightTheme = ThemeData(
     selectedItemColor: AppColors.primary,
     unselectedItemColor: Color(0xFF6B7280),
   ),
+
+  fontFamily: 'Lato',
 );
