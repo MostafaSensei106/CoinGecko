@@ -4,5 +4,6 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
-  Widget build(final BuildContext context) => const Scaffold();
+  Widget build(final BuildContext context) =>
+      const Scaffold(body: Center(child: Text('Hello There')));
 }
