@@ -1,5 +1,5 @@
-import 'package:coin_gecko/Core/routing/routes.dart';
-import 'package:coin_gecko/mod/Home/presentation/home_screen.dart';
+import 'package:coin_gecko/core/routing/routes.dart';
+import 'package:coin_gecko/modules/home/presentation/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 
 class AppRouter {
