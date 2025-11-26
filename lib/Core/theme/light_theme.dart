@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color primary = Color(0xFF2C4DF1); // main blue
+  static const Color primary = Color(0xFF2C4DF1);
   static const Color secondary = Color(0xFF4E6EF2);
   static const Color background = Color(0xFFF5F7FB);
   static const Color surface = Colors.white;
@@ -19,10 +19,8 @@ final ThemeData lightTheme = ThemeData(
   colorScheme: const ColorScheme.light(
     primary: AppColors.primary,
     secondary: AppColors.secondary,
-    background: AppColors.background,
     surface: AppColors.surface,
     onPrimary: AppColors.onPrimary,
-    onBackground: AppColors.onBackground,
     onSurface: AppColors.onSurface,
   ),
   appBarTheme: const AppBarTheme(
@@ -32,13 +30,15 @@ final ThemeData lightTheme = ThemeData(
   ),
   textTheme: const TextTheme(
     titleLarge: TextStyle(
-        fontSize: 20,
-        fontWeight: FontWeight.w600,
-        color: AppColors.onBackground),
+      fontSize: 20,
+      fontWeight: FontWeight.w600,
+      color: AppColors.onBackground,
+    ),
     bodyMedium: TextStyle(
-        fontSize: 14,
-        fontWeight: FontWeight.w400,
-        color: AppColors.onBackground),
+      fontSize: 14,
+      fontWeight: FontWeight.w400,
+      color: AppColors.onBackground,
+    ),
   ),
   inputDecorationTheme: InputDecorationTheme(
     filled: true,
@@ -48,7 +48,7 @@ final ThemeData lightTheme = ThemeData(
       borderSide: const BorderSide(color: AppColors.divider),
     ),
   ),
-  cardTheme: CardTheme(
+  cardTheme: CardThemeData(
     color: Colors.white,
     elevation: 1,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
