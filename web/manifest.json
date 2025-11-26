@@ -1,6 +1,6 @@
 {
-    "name": "coin_gecko",
-    "short_name": "coin_gecko",
+    "name": "coingecko",
+    "short_name": "coingecko",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

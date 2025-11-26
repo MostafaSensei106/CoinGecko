@@ -1,11 +1,12 @@
-import 'package:coin_gecko/core/routing/routes.dart';
-import 'package:coin_gecko/modules/home/presentation/home_screen.dart';
 import 'package:flutter/cupertino.dart';
+
+import '../../modules/home/presentation/home_screen.dart';
+import 'routes.dart';
 
 class AppRouter {
   static const String initialRoute = '/';
 
-  Route<dynamic>? generateRoute(RouteSettings settings) {
+  Route<dynamic>? generateRoute(final RouteSettings settings) {
     // final args = settings.arguments;
     switch (settings.name) {
       case Routes.homeScreen:
