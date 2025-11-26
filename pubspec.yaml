@@ -7,6 +7,7 @@ version: 1.0.0+1
 
 environment:
   sdk: ^3.10.1
+
 dependencies:
   flutter:
     sdk: flutter
@@ -39,4 +40,4 @@ flutter:
   fonts:
     - family: Lato
       fonts:
-        - asset: assets/Fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Regular.ttf
