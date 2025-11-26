@@ -56,4 +56,6 @@ final ThemeData darkTheme = ThemeData(
     selectedItemColor: DarkAppColors.primary,
     unselectedItemColor: DarkAppColors.onSurface.withOpacity(0.5),
   ),
+
+  fontFamily: 'Lato',
 );

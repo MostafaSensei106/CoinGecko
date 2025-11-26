@@ -56,4 +56,6 @@ final ThemeData lightTheme = ThemeData(
     selectedItemColor: AppColors.primary,
     unselectedItemColor: Color(0xFF6B7280),
   ),
+
+  fontFamily: 'Lato',
 );
