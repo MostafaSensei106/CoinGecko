@@ -17,10 +17,8 @@ final ThemeData darkTheme = ThemeData(
   primaryColor: DarkAppColors.primary,
   colorScheme: const ColorScheme.dark(
     primary: DarkAppColors.primary,
-    background: DarkAppColors.background,
     surface: DarkAppColors.surface,
     onPrimary: DarkAppColors.onPrimary,
-    onBackground: DarkAppColors.onBackground,
     onSurface: DarkAppColors.onSurface,
   ),
   appBarTheme: const AppBarTheme(
@@ -30,13 +28,15 @@ final ThemeData darkTheme = ThemeData(
   ),
   textTheme: const TextTheme(
     titleLarge: TextStyle(
-        fontSize: 20,
-        fontWeight: FontWeight.w600,
-        color: DarkAppColors.onBackground),
+      fontSize: 20,
+      fontWeight: FontWeight.w600,
+      color: DarkAppColors.onBackground,
+    ),
     bodyMedium: TextStyle(
-        fontSize: 14,
-        fontWeight: FontWeight.w400,
-        color: DarkAppColors.onBackground),
+      fontSize: 14,
+      fontWeight: FontWeight.w400,
+      color: DarkAppColors.onBackground,
+    ),
   ),
   inputDecorationTheme: InputDecorationTheme(
     filled: true,
@@ -46,7 +46,7 @@ final ThemeData darkTheme = ThemeData(
       borderSide: const BorderSide(color: DarkAppColors.divider),
     ),
   ),
-  cardTheme: CardTheme(
+  cardTheme: CardThemeData(
     color: DarkAppColors.surface,
     elevation: 1,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
